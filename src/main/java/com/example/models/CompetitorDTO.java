@@ -28,6 +28,8 @@ public class CompetitorDTO {
     
     private String country;
     
+    private String contrasena;
+    
     
     public CompetitorDTO(){
         
@@ -96,5 +98,15 @@ public class CompetitorDTO {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    public String getContrasena() {
+        return contrasena;
+    }
+
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
+    }
+    
+    
     
 }
