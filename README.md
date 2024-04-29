@@ -5,7 +5,7 @@
 - Paula Andres Gomez Aldana 
     
 ## Forma de implementacion
-Los servicios para el proyecto Carga Express se implementaron utilizando JPA y Java EE, así como tambien se usó base de datos y entity manager. 
+Los servicios para el proyecto Carga Express se implementaron utilizando JPA y Java EE, así como tambien se usó base de datos con Derby, entity manager y se utilizó el servidor Jetty. 
 
 Se imitó una capa de persistencia y una capa de servicios dentro del mismo proyecto para separar la logica y conexion de base de datos de los servicios, las entidades creadas son Usuario, Camion, Carga y Remision, cada uno tiene su CRUD correspondiente, así como una clase de servicio independiente
 
@@ -16,4 +16,16 @@ Se imitó una capa de persistencia y una capa de servicios dentro del mismo proy
 4. Vaya a services y montar la base de datos JavaDB
 5. Ejecute el proyecto
 6. Abra postman
-7. Ejecute las consultas, tomando como base este link: http://localhost:8080/<entidad>/<accion>
+7. Ejecute las consultas, tomando como base este link: http://localhost:8080/(entidad)/(accion)
+
+## Entidades
+- Usuario
+- Camion
+- Remision
+- Carga
+## Acciones
+- nuevo (crear)
+- lista (mostrar todo)
+- buscar/[id] (buscar por id)
+- eliminar (eliminar)
+- modificar (atualizar)
