@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.example;
+package com.example.persistencia;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -38,7 +38,7 @@ public class PersistenceManager {
     }
 
     protected void createEntityManagerFactory() {
-        this.emf = Persistence.createEntityManagerFactory("CompetitorsPU",
+        this.emf = Persistence.createEntityManagerFactory("cargaexpress",
                 System.getProperties());
         if (DEBUG) {
             System.out.println("Persistence started at " + new java.util.Date());
