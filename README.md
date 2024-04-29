@@ -16,4 +16,4 @@ Se imitó una capa de persistencia y una capa de servicios dentro del mismo proy
 4. Vaya a services y montar la base de datos JavaDB
 5. Ejecute el proyecto
 6. Abra postman
-7. Ejecute las consultas, tomando como base este link: http://localhost:8080/<<entidad>>/<<accion>>
+7. Ejecute las consultas, tomando como base este link: http://localhost:8080/<entidad>/<accion>
